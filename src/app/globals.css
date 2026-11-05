@@ -32,6 +32,7 @@
   --color-lime: var(--lime);
   --color-lime-bright: var(--lime-bright);
   --font-sans: var(--font-outfit);
+  --font-serif: var(--font-instrument);
 }
 
 * {

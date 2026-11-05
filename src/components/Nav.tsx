@@ -12,50 +12,49 @@ export function Nav() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => setScrolled(window.scrollY > 8);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
   return (
-    <header className="pointer-events-none fixed inset-x-0 top-10 z-50 px-4 pt-3 sm:top-11 sm:px-6 sm:pt-4">
-      <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-3">
-        <nav
-          className={`pointer-events-auto flex items-center gap-0.5 rounded-full px-2.5 py-2 text-[15px] text-white transition-colors duration-500 sm:gap-1 sm:px-3 sm:py-2.5 sm:text-base ${
-            scrolled ? "glass-nav-light shadow-sm" : "glass-nav"
-          }`}
+    <header
+      className={`sticky top-10 z-50 border-b transition-colors duration-300 sm:top-11 ${
+        scrolled
+          ? "border-forest/10 bg-cream/95 backdrop-blur-md"
+          : "border-transparent bg-cream"
+      }`}
+    >
+      <div className="mx-auto flex h-16 max-w-[1200px] items-center justify-between gap-4 px-5 sm:h-[4.25rem] sm:px-8">
+        <a
+          href="#top"
+          className="flex items-center gap-2 text-[17px] font-semibold tracking-tight text-forest"
         >
-          <a
-            href="#top"
-            className="flex items-center gap-2 rounded-full px-3.5 py-2.5 font-medium tracking-tight sm:px-4"
-          >
-            <span className="flex items-center gap-2">
-              SeraHome
-              <span className="inline-block h-2 w-2 rounded-full bg-white" />
-            </span>
-            <span className="hidden font-normal text-white/55 sm:inline">
-              Home Cleaning
-            </span>
-          </a>
+          SeraHome
+          <span className="inline-block h-2 w-2 rounded-full bg-forest" />
+          <span className="hidden text-[13px] font-normal text-sage sm:inline">
+            Home Cleaning
+          </span>
+        </a>
+
+        <nav className="flex items-center gap-1 sm:gap-2">
           {links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="hidden rounded-full px-3.5 py-2.5 text-white/85 transition-colors hover:bg-white/10 hover:text-white sm:inline-block"
+              className="hidden rounded-full px-3 py-2 text-[15px] text-forest/80 transition-colors hover:text-forest sm:inline-block"
             >
               {link.label}
             </a>
           ))}
+          <a
+            href="#book"
+            className="rounded-full border border-forest/20 bg-white px-4 py-2 text-[15px] font-medium text-forest transition-colors hover:border-forest/40 sm:px-5"
+          >
+            Book
+          </a>
         </nav>
-        <a
-          href="#book"
-          className={`pointer-events-auto rounded-full px-5 py-3 text-[15px] font-medium text-white transition-colors duration-500 sm:px-6 sm:py-3.5 sm:text-base ${
-            scrolled ? "glass-nav-light" : "glass-nav"
-          }`}
-        >
-          Book
-        </a>
       </div>
     </header>
   );
