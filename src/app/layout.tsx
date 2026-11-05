@@ -9,9 +9,9 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
-  title: "SeraHome — Premium home cleaning in the Bay Area",
+  title: "SeraHome — Home cleaning in the East Bay",
   description:
-    "A life-changing home routine, built for Bay Area living. Eco-conscious, detail-obsessed cleaning for homes that deserve better.",
+    "Calm, plant-based cleaning for East Bay homes. Same cleaner every visit, nothing missed, and a re-clean guarantee. Oakland, Berkeley, Alameda, and nearby.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

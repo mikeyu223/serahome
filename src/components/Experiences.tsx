@@ -3,18 +3,18 @@ import Image from "next/image";
 const slides = [
   {
     image: "/images/window.jpg",
-    title: "Noe Valley Member Experiences",
-    quote: "My apartment finally feels like a place I can breathe in.",
+    title: "Rockridge Member Experiences",
+    quote: "Same cleaner every time—and my apartment finally feels calm.",
   },
   {
     image: "/images/kitchen.jpg",
-    title: "Palo Alto Home Reset",
+    title: "Berkeley Home Reset",
     quote: "They treat marble and oak the way a lab would treat glass.",
   },
   {
     image: "/images/bedroom.jpg",
     title: "Oakland Mid-Century Clean",
-    quote: "Consistent, quiet, and somehow always ahead of the dust.",
+    quote: "Nothing missed. Quiet, consistent, and ahead of the dust.",
   },
 ];
 
@@ -26,9 +26,9 @@ export function Experiences() {
           Over 2,400 home transformations (and counting).
         </h2>
         <p className="mx-auto mt-5 max-w-lg text-[15px] leading-relaxed text-moss">
-          From Victorian flats in San Francisco to glass-walled homes in the
-          Peninsula—SeraHome members share what changed when cleaning became a
-          ritual.
+          From Craftsman bungalows in Rockridge to hillside homes in the Oakland
+          hills—East Bay members share what changed when cleaning became
+          reliable.
         </p>
       </div>
 

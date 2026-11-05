@@ -9,7 +9,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <Image
           src="/images/hero-interior.jpg"
-          alt="Sunlit modern Bay Area living room after a SeraHome clean"
+          alt="Sunlit East Bay living room after a SeraHome clean"
           fill
           priority
           className="animate-drift object-cover object-center opacity-90"
@@ -22,14 +22,14 @@ export function Hero() {
       <div className="relative mx-auto flex min-h-[100svh] max-w-[1400px] flex-col justify-end px-6 pb-16 pt-32 sm:px-10 sm:pb-24 lg:justify-center lg:pb-20">
         <div className="max-w-xl">
           <p className="animate-fade-up text-sm font-medium tracking-[0.08em] text-lime">
-            SeraHome
+            SeraHome · Home Cleaning
           </p>
           <h1 className="animate-fade-up delay-1 mt-4 text-[2.6rem] font-medium leading-[1.05] tracking-tight sm:text-5xl lg:text-[3.75rem]">
-            A life-changing home routine, built for Bay Area living.
+            Calm, plant-based cleaning for East Bay homes.
           </h1>
           <p className="animate-fade-up delay-2 mt-6 max-w-md text-base leading-relaxed text-white/75 sm:text-lg">
-            Eco-conscious cleaning that restores calm to your space—so your home
-            feels as considered as the life you lead in it.
+            The same cleaner every visit. Nothing missed. A re-clean guarantee if
+            we ever fall short.
           </p>
           <div className="animate-fade-up delay-3 mt-9 flex flex-wrap items-center gap-5">
             <a
@@ -42,7 +42,7 @@ export function Hero() {
               href="#services"
               className="group inline-flex items-center gap-2 text-[15px] font-medium text-white"
             >
-              Explore services
+              See services
               <span className="transition-transform duration-300 group-hover:translate-x-1">
                 →
               </span>

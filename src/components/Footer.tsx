@@ -8,9 +8,10 @@ export function Footer() {
               SeraHome
               <span className="ml-1.5 inline-block h-2 w-2 rounded-full bg-white align-middle" />
             </p>
+            <p className="mt-1 text-sm text-white/45">Home Cleaning</p>
             <p className="mt-4 text-sm leading-relaxed text-white/55">
-              Premium, eco-conscious home cleaning for the Bay Area—designed to
-              restore calm, clarity, and care to the places you live.
+              Plant-based home cleaning for the East Bay—same cleaner every
+              visit, nothing missed, and a re-clean guarantee.
             </p>
             <form
               className="mt-8 flex items-center gap-2 rounded-full border border-white/20 px-4 py-2"
@@ -113,7 +114,7 @@ export function Footer() {
             service.
           </p>
           <p className="text-xs text-white/35">
-            © 2026 SeraHome. Bay Area, California.
+            © 2026 SeraHome. East Bay, California.
           </p>
         </div>
       </div>

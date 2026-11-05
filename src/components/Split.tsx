@@ -14,7 +14,7 @@ export function Split() {
           />
           <div className="absolute inset-0 bg-forest/45" />
           <p className="absolute left-4 top-1/2 origin-left -translate-y-1/2 -rotate-90 text-[10px] font-medium tracking-[0.2em] text-white/70 uppercase sm:left-6">
-            Mill Valley — California
+            Oakland Hills — California
           </p>
           <div className="absolute inset-0 flex flex-col items-center justify-center px-8 text-center text-white">
             <h3 className="text-3xl font-medium tracking-tight sm:text-4xl">

@@ -10,8 +10,8 @@ export function Featured() {
           </h2>
           <p className="mt-6 max-w-md text-[15px] leading-relaxed text-moss">
             Our Home Essentials Duo pairs a recurring Standard Clean with a
-            seasonal Deep Clean—so your space stays fresh without you managing
-            the calendar.
+            seasonal Deep Clean—same cleaner, plant-based products, and a
+            re-clean guarantee if anything falls short.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a

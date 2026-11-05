@@ -32,8 +32,8 @@ export function Method() {
           </h2>
           <p className="mt-5 max-w-md text-[15px] leading-relaxed text-moss">
             Foggy windows, worn counters, and crowded calendars—SeraHome treats
-            cleaning as a system for living well in the Bay Area, not a
-            checklist of chores.
+            cleaning as care for East Bay homes, not a checklist of chores. The
+            same cleaner learns your space so nothing gets missed.
           </p>
           <a
             href="#book"

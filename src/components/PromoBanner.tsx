@@ -5,8 +5,8 @@ export function PromoBanner() {
         href="#book"
         className="block px-4 py-2.5 text-[13px] font-medium tracking-tight underline-offset-2 hover:underline"
       >
-        New client offer: 20% off your first Deep Clean — Book your Bay Area home
-        →
+        Founding client rate: Standard Cleans from $149 — limited East Bay spots
+        this month →
       </a>
     </div>
   );

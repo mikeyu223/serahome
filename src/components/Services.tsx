@@ -5,7 +5,7 @@ const services = [
     code: "SC-01",
     name: "Standard Clean",
     blurb: "Weekly or biweekly upkeep for lived-in homes.",
-    price: "Starting at $165",
+    price: "From $149 founding · $165 after",
     image: "/images/living.jpg",
     tag: null as string | null,
     featured: false,
@@ -48,8 +48,8 @@ export function Services() {
             Whole-home calm starts with a better clean.
           </h2>
           <p className="max-w-sm text-[15px] leading-relaxed text-white/65 lg:text-right">
-            Four thoughtfully designed routines—each built around Bay Area homes,
-            natural materials, and the way you actually live.
+            Four routines built for East Bay homes—same cleaner every visit,
+            plant-based products, and a re-clean guarantee.
           </p>
         </div>
 
