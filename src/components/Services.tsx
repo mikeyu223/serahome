@@ -100,7 +100,7 @@ export function Services() {
                           : "bg-forest-deep text-white hover:bg-black/40"
                       }`}
                     >
-                      Book Now
+                      Request
                     </a>
                   </div>
                 </div>

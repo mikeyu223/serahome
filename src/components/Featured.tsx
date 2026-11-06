@@ -18,7 +18,7 @@ export function Featured() {
               href="#book"
               className="inline-flex h-12 items-center rounded-full bg-forest px-6 text-[15px] font-medium text-white transition-transform duration-300 hover:scale-[1.03]"
             >
-              Book Home Essentials Duo
+              Request Essentials Duo
             </a>
             <span className="rounded-full bg-lime px-3 py-1.5 text-[12px] font-semibold text-forest">
               Bundle + Save 15%

@@ -18,7 +18,7 @@ export function Split() {
           </p>
           <div className="absolute inset-0 flex flex-col items-center justify-center px-8 text-center text-white">
             <h3 className="text-3xl font-medium tracking-tight sm:text-4xl">
-              Sera 【 Labs 】
+              SeraHome 【 Labs 】
             </h3>
             <p className="mt-3 max-w-xs text-sm text-white/80">
               Because a clean home is not just surfaces.
@@ -52,7 +52,7 @@ export function Split() {
               href="#book"
               className="mt-7 inline-flex h-11 items-center rounded-full bg-white px-6 text-[14px] font-medium text-forest transition-transform hover:scale-[1.03]"
             >
-              Book Now
+              Request Assessment
             </a>
           </div>
         </article>

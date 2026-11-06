@@ -47,7 +47,7 @@ export function Hero() {
                   id="hero-zip"
                   name="zip"
                   type="text"
-                  placeholder="Your East Bay neighborhood"
+                  placeholder="Neighborhood for assessment"
                   className="min-w-0 flex-1 bg-transparent py-3.5 pl-2 text-[15px] text-forest outline-none placeholder:text-forest/40 sm:py-3"
                 />
               </div>
@@ -55,11 +55,11 @@ export function Hero() {
                 href="#book"
                 className="inline-flex h-12 w-full items-center justify-center rounded-full bg-forest text-[15px] font-medium text-white transition-transform hover:scale-[1.02] sm:h-11 sm:w-auto sm:shrink-0 sm:px-6"
               >
-                Book a Clean
+                Request Assessment
               </a>
             </div>
             <p className="mt-3 text-[12px] text-white/75">
-              Takes 2 minutes · Oakland, Berkeley, Alameda & nearby
+              Brief consult first · Card on file via Stripe after we quote
             </p>
           </div>
 
