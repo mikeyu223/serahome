@@ -1,5 +1,4 @@
-import { PromoBanner } from "@/components/PromoBanner";
-import { Nav } from "@/components/Nav";
+import { SiteHeader } from "@/components/SiteHeader";
 import { Hero } from "@/components/Hero";
 import { Services } from "@/components/Services";
 import { Featured } from "@/components/Featured";
@@ -16,8 +15,7 @@ export default function Home() {
   return (
     <>
       <LocalBusinessJsonLd />
-      <PromoBanner />
-      <Nav />
+      <SiteHeader />
       <main>
         <Hero />
         <Services />

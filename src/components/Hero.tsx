@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const proofs = [
   { title: "Same cleaner", detail: "Every visit" },
-  { title: "Nothing missed", detail: "Detail checklist" },
+  { title: "Nothing missed", detail: "Detailed checklist" },
   { title: "Re-clean guarantee", detail: "If we fall short" },
 ];
 
